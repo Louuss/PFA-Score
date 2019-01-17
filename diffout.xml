@@ -1,0 +1,4254 @@
+*** extractedFiles/testMasive.xml	Wed Dec 12 14:53:52 2018
+--- extractedFiles/testSerum.xml	Wed Dec 12 14:53:56 2018
+***************
+*** 2719,2725 ****
+  					</DeviceChain>
+  				</DeviceChain>
+  			</AudioTrack>
+! 			<MidiTrack Id="17">
+  				<LomId Value="0" />
+  				<LomIdView Value="0" />
+  				<EnvelopeModePreferred Value="false" />
+--- 2719,2725 ----
+  					</DeviceChain>
+  				</DeviceChain>
+  			</AudioTrack>
+! 			<MidiTrack Id="18">
+  				<LomId Value="0" />
+  				<LomIdView Value="0" />
+  				<EnvelopeModePreferred Value="false" />
+***************
+*** 2728,2738 ****
+  					<IsValueSampleBased Value="false" />
+  				</TrackDelay>
+  				<Name>
+! 					<EffectiveName Value="5-Massive" />
+  					<UserName Value="" />
+  					<Annotation Value="" />
+  				</Name>
+! 				<ColorIndex Value="175" />
+  				<TrackGroupId Value="-1" />
+  				<TrackUnfolded Value="false" />
+  				<DevicesListWrapper LomId="0" />
+--- 2728,2738 ----
+  					<IsValueSampleBased Value="false" />
+  				</TrackDelay>
+  				<Name>
+! 					<EffectiveName Value="5-Serum" />
+  					<UserName Value="" />
+  					<Annotation Value="" />
+  				</Name>
+! 				<ColorIndex Value="185" />
+  				<TrackGroupId Value="-1" />
+  				<TrackUnfolded Value="false" />
+  				<DevicesListWrapper LomId="0" />
+***************
+*** 2795,2801 ****
+  								</Events>
+  							</ArrangerAutomation>
+  							<Manual Value="true" />
+! 							<AutomationTarget Id="21901">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+  							<MidiCCOnOffThresholds>
+--- 2795,2801 ----
+  								</Events>
+  							</ArrangerAutomation>
+  							<Manual Value="true" />
+! 							<AutomationTarget Id="22307">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+  							<MidiCCOnOffThresholds>
+***************
+*** 2831,2840 ****
+  										<Min Value="0.0003162277571" />
+  										<Max Value="1" />
+  									</MidiControllerRange>
+! 									<AutomationTarget Id="21902">
+  										<LockEnvelope Value="0" />
+  									</AutomationTarget>
+! 									<ModulationTarget Id="21903">
+  										<LockEnvelope Value="0" />
+  									</ModulationTarget>
+  									<ModulationAutomation>
+--- 2831,2840 ----
+  										<Min Value="0.0003162277571" />
+  										<Max Value="1" />
+  									</MidiControllerRange>
+! 									<AutomationTarget Id="22308">
+  										<LockEnvelope Value="0" />
+  									</AutomationTarget>
+! 									<ModulationTarget Id="22309">
+  										<LockEnvelope Value="0" />
+  									</ModulationTarget>
+  									<ModulationAutomation>
+***************
+*** 2856,2865 ****
+  										<Min Value="0.0003162277571" />
+  										<Max Value="1" />
+  									</MidiControllerRange>
+! 									<AutomationTarget Id="21904">
+  										<LockEnvelope Value="0" />
+  									</AutomationTarget>
+! 									<ModulationTarget Id="21905">
+  										<LockEnvelope Value="0" />
+  									</ModulationTarget>
+  									<ModulationAutomation>
+--- 2856,2865 ----
+  										<Min Value="0.0003162277571" />
+  										<Max Value="1" />
+  									</MidiControllerRange>
+! 									<AutomationTarget Id="22310">
+  										<LockEnvelope Value="0" />
+  									</AutomationTarget>
+! 									<ModulationTarget Id="22311">
+  										<LockEnvelope Value="0" />
+  									</ModulationTarget>
+  									<ModulationAutomation>
+***************
+*** 2877,2883 ****
+  								</Events>
+  							</ArrangerAutomation>
+  							<Manual Value="true" />
+! 							<AutomationTarget Id="21906">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+  							<MidiCCOnOffThresholds>
+--- 2877,2883 ----
+  								</Events>
+  							</ArrangerAutomation>
+  							<Manual Value="true" />
+! 							<AutomationTarget Id="22312">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+  							<MidiCCOnOffThresholds>
+***************
+*** 2898,2907 ****
+  								<Min Value="-1" />
+  								<Max Value="1" />
+  							</MidiControllerRange>
+! 							<AutomationTarget Id="21907">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+! 							<ModulationTarget Id="21908">
+  								<LockEnvelope Value="0" />
+  							</ModulationTarget>
+  							<ModulationAutomation>
+--- 2898,2907 ----
+  								<Min Value="-1" />
+  								<Max Value="1" />
+  							</MidiControllerRange>
+! 							<AutomationTarget Id="22313">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+! 							<ModulationTarget Id="22314">
+  								<LockEnvelope Value="0" />
+  							</ModulationTarget>
+  							<ModulationAutomation>
+***************
+*** 2920,2929 ****
+  								<Min Value="0.0003162277571" />
+  								<Max Value="1.99526238" />
+  							</MidiControllerRange>
+! 							<AutomationTarget Id="21909">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+! 							<ModulationTarget Id="21910">
+  								<LockEnvelope Value="0" />
+  							</ModulationTarget>
+  							<ModulationAutomation>
+--- 2920,2929 ----
+  								<Min Value="0.0003162277571" />
+  								<Max Value="1.99526238" />
+  							</MidiControllerRange>
+! 							<AutomationTarget Id="22315">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+! 							<ModulationTarget Id="22316">
+  								<LockEnvelope Value="0" />
+  							</ModulationTarget>
+  							<ModulationAutomation>
+***************
+*** 2939,2945 ****
+  								</Events>
+  							</ArrangerAutomation>
+  							<Manual Value="1" />
+! 							<AutomationTarget Id="21911">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+  						</CrossFadeState>
+--- 2939,2945 ----
+  								</Events>
+  							</ArrangerAutomation>
+  							<Manual Value="1" />
+! 							<AutomationTarget Id="22317">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+  						</CrossFadeState>
+***************
+*** 2957,2963 ****
+  								</Events>
+  							</ArrangerAutomation>
+  							<Manual Value="true" />
+! 							<AutomationTarget Id="21912">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+  							<MidiCCOnOffThresholds>
+--- 2957,2963 ----
+  								</Events>
+  							</ArrangerAutomation>
+  							<Manual Value="true" />
+! 							<AutomationTarget Id="22318">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+  							<MidiCCOnOffThresholds>
+***************
+*** 3057,3453 ****
+  							<TakeCounter Value="0" />
+  						</Recorder>
+  						<MidiControllers>
+! 							<ControllerTargets.0 Id="21913">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.0>
+! 							<ControllerTargets.1 Id="21914">
+  								<LockEnvelope Value="1" />
+  							</ControllerTargets.1>
+! 							<ControllerTargets.2 Id="21915">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.2>
+! 							<ControllerTargets.3 Id="21916">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.3>
+! 							<ControllerTargets.4 Id="21917">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.4>
+! 							<ControllerTargets.5 Id="21918">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.5>
+! 							<ControllerTargets.6 Id="21919">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.6>
+! 							<ControllerTargets.7 Id="21920">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.7>
+! 							<ControllerTargets.8 Id="21921">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.8>
+! 							<ControllerTargets.9 Id="21922">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.9>
+! 							<ControllerTargets.10 Id="21923">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.10>
+! 							<ControllerTargets.11 Id="21924">
+  								<LockEnvelope Value="1" />
+  							</ControllerTargets.11>
+! 							<ControllerTargets.12 Id="21925">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.12>
+! 							<ControllerTargets.13 Id="21926">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.13>
+! 							<ControllerTargets.14 Id="21927">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.14>
+! 							<ControllerTargets.15 Id="21928">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.15>
+! 							<ControllerTargets.16 Id="21929">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.16>
+! 							<ControllerTargets.17 Id="21930">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.17>
+! 							<ControllerTargets.18 Id="21931">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.18>
+! 							<ControllerTargets.19 Id="21932">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.19>
+! 							<ControllerTargets.20 Id="21933">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.20>
+! 							<ControllerTargets.21 Id="21934">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.21>
+! 							<ControllerTargets.22 Id="21935">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.22>
+! 							<ControllerTargets.23 Id="21936">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.23>
+! 							<ControllerTargets.24 Id="21937">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.24>
+! 							<ControllerTargets.25 Id="21938">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.25>
+! 							<ControllerTargets.26 Id="21939">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.26>
+! 							<ControllerTargets.27 Id="21940">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.27>
+! 							<ControllerTargets.28 Id="21941">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.28>
+! 							<ControllerTargets.29 Id="21942">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.29>
+! 							<ControllerTargets.30 Id="21943">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.30>
+! 							<ControllerTargets.31 Id="21944">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.31>
+! 							<ControllerTargets.32 Id="21945">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.32>
+! 							<ControllerTargets.33 Id="21946">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.33>
+! 							<ControllerTargets.34 Id="21947">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.34>
+! 							<ControllerTargets.35 Id="21948">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.35>
+! 							<ControllerTargets.36 Id="21949">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.36>
+! 							<ControllerTargets.37 Id="21950">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.37>
+! 							<ControllerTargets.38 Id="21951">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.38>
+! 							<ControllerTargets.39 Id="21952">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.39>
+! 							<ControllerTargets.40 Id="21953">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.40>
+! 							<ControllerTargets.41 Id="21954">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.41>
+! 							<ControllerTargets.42 Id="21955">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.42>
+! 							<ControllerTargets.43 Id="21956">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.43>
+! 							<ControllerTargets.44 Id="21957">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.44>
+! 							<ControllerTargets.45 Id="21958">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.45>
+! 							<ControllerTargets.46 Id="21959">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.46>
+! 							<ControllerTargets.47 Id="21960">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.47>
+! 							<ControllerTargets.48 Id="21961">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.48>
+! 							<ControllerTargets.49 Id="21962">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.49>
+! 							<ControllerTargets.50 Id="21963">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.50>
+! 							<ControllerTargets.51 Id="21964">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.51>
+! 							<ControllerTargets.52 Id="21965">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.52>
+! 							<ControllerTargets.53 Id="21966">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.53>
+! 							<ControllerTargets.54 Id="21967">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.54>
+! 							<ControllerTargets.55 Id="21968">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.55>
+! 							<ControllerTargets.56 Id="21969">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.56>
+! 							<ControllerTargets.57 Id="21970">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.57>
+! 							<ControllerTargets.58 Id="21971">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.58>
+! 							<ControllerTargets.59 Id="21972">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.59>
+! 							<ControllerTargets.60 Id="21973">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.60>
+! 							<ControllerTargets.61 Id="21974">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.61>
+! 							<ControllerTargets.62 Id="21975">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.62>
+! 							<ControllerTargets.63 Id="21976">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.63>
+! 							<ControllerTargets.64 Id="21977">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.64>
+! 							<ControllerTargets.65 Id="21978">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.65>
+! 							<ControllerTargets.66 Id="21979">
+  								<LockEnvelope Value="1" />
+  							</ControllerTargets.66>
+! 							<ControllerTargets.67 Id="21980">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.67>
+! 							<ControllerTargets.68 Id="21981">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.68>
+! 							<ControllerTargets.69 Id="21982">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.69>
+! 							<ControllerTargets.70 Id="21983">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.70>
+! 							<ControllerTargets.71 Id="21984">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.71>
+! 							<ControllerTargets.72 Id="21985">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.72>
+! 							<ControllerTargets.73 Id="21986">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.73>
+! 							<ControllerTargets.74 Id="21987">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.74>
+! 							<ControllerTargets.75 Id="21988">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.75>
+! 							<ControllerTargets.76 Id="21989">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.76>
+! 							<ControllerTargets.77 Id="21990">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.77>
+! 							<ControllerTargets.78 Id="21991">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.78>
+! 							<ControllerTargets.79 Id="21992">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.79>
+! 							<ControllerTargets.80 Id="21993">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.80>
+! 							<ControllerTargets.81 Id="21994">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.81>
+! 							<ControllerTargets.82 Id="21995">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.82>
+! 							<ControllerTargets.83 Id="21996">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.83>
+! 							<ControllerTargets.84 Id="21997">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.84>
+! 							<ControllerTargets.85 Id="21998">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.85>
+! 							<ControllerTargets.86 Id="21999">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.86>
+! 							<ControllerTargets.87 Id="22000">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.87>
+! 							<ControllerTargets.88 Id="22001">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.88>
+! 							<ControllerTargets.89 Id="22002">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.89>
+! 							<ControllerTargets.90 Id="22003">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.90>
+! 							<ControllerTargets.91 Id="22004">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.91>
+! 							<ControllerTargets.92 Id="22005">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.92>
+! 							<ControllerTargets.93 Id="22006">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.93>
+! 							<ControllerTargets.94 Id="22007">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.94>
+! 							<ControllerTargets.95 Id="22008">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.95>
+! 							<ControllerTargets.96 Id="22009">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.96>
+! 							<ControllerTargets.97 Id="22010">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.97>
+! 							<ControllerTargets.98 Id="22011">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.98>
+! 							<ControllerTargets.99 Id="22012">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.99>
+! 							<ControllerTargets.100 Id="22013">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.100>
+! 							<ControllerTargets.101 Id="22014">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.101>
+! 							<ControllerTargets.102 Id="22015">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.102>
+! 							<ControllerTargets.103 Id="22016">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.103>
+! 							<ControllerTargets.104 Id="22017">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.104>
+! 							<ControllerTargets.105 Id="22018">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.105>
+! 							<ControllerTargets.106 Id="22019">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.106>
+! 							<ControllerTargets.107 Id="22020">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.107>
+! 							<ControllerTargets.108 Id="22021">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.108>
+! 							<ControllerTargets.109 Id="22022">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.109>
+! 							<ControllerTargets.110 Id="22023">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.110>
+! 							<ControllerTargets.111 Id="22024">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.111>
+! 							<ControllerTargets.112 Id="22025">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.112>
+! 							<ControllerTargets.113 Id="22026">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.113>
+! 							<ControllerTargets.114 Id="22027">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.114>
+! 							<ControllerTargets.115 Id="22028">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.115>
+! 							<ControllerTargets.116 Id="22029">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.116>
+! 							<ControllerTargets.117 Id="22030">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.117>
+! 							<ControllerTargets.118 Id="22031">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.118>
+! 							<ControllerTargets.119 Id="22032">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.119>
+! 							<ControllerTargets.120 Id="22033">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.120>
+! 							<ControllerTargets.121 Id="22034">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.121>
+! 							<ControllerTargets.122 Id="22035">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.122>
+! 							<ControllerTargets.123 Id="22036">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.123>
+! 							<ControllerTargets.124 Id="22037">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.124>
+! 							<ControllerTargets.125 Id="22038">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.125>
+! 							<ControllerTargets.126 Id="22039">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.126>
+! 							<ControllerTargets.127 Id="22040">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.127>
+! 							<ControllerTargets.128 Id="22041">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.128>
+! 							<ControllerTargets.129 Id="22042">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.129>
+! 							<ControllerTargets.130 Id="22043">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.130>
+  						</MidiControllers>
+--- 3057,3453 ----
+  							<TakeCounter Value="0" />
+  						</Recorder>
+  						<MidiControllers>
+! 							<ControllerTargets.0 Id="22319">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.0>
+! 							<ControllerTargets.1 Id="22320">
+  								<LockEnvelope Value="1" />
+  							</ControllerTargets.1>
+! 							<ControllerTargets.2 Id="22321">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.2>
+! 							<ControllerTargets.3 Id="22322">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.3>
+! 							<ControllerTargets.4 Id="22323">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.4>
+! 							<ControllerTargets.5 Id="22324">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.5>
+! 							<ControllerTargets.6 Id="22325">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.6>
+! 							<ControllerTargets.7 Id="22326">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.7>
+! 							<ControllerTargets.8 Id="22327">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.8>
+! 							<ControllerTargets.9 Id="22328">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.9>
+! 							<ControllerTargets.10 Id="22329">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.10>
+! 							<ControllerTargets.11 Id="22330">
+  								<LockEnvelope Value="1" />
+  							</ControllerTargets.11>
+! 							<ControllerTargets.12 Id="22331">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.12>
+! 							<ControllerTargets.13 Id="22332">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.13>
+! 							<ControllerTargets.14 Id="22333">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.14>
+! 							<ControllerTargets.15 Id="22334">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.15>
+! 							<ControllerTargets.16 Id="22335">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.16>
+! 							<ControllerTargets.17 Id="22336">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.17>
+! 							<ControllerTargets.18 Id="22337">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.18>
+! 							<ControllerTargets.19 Id="22338">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.19>
+! 							<ControllerTargets.20 Id="22339">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.20>
+! 							<ControllerTargets.21 Id="22340">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.21>
+! 							<ControllerTargets.22 Id="22341">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.22>
+! 							<ControllerTargets.23 Id="22342">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.23>
+! 							<ControllerTargets.24 Id="22343">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.24>
+! 							<ControllerTargets.25 Id="22344">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.25>
+! 							<ControllerTargets.26 Id="22345">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.26>
+! 							<ControllerTargets.27 Id="22346">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.27>
+! 							<ControllerTargets.28 Id="22347">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.28>
+! 							<ControllerTargets.29 Id="22348">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.29>
+! 							<ControllerTargets.30 Id="22349">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.30>
+! 							<ControllerTargets.31 Id="22350">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.31>
+! 							<ControllerTargets.32 Id="22351">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.32>
+! 							<ControllerTargets.33 Id="22352">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.33>
+! 							<ControllerTargets.34 Id="22353">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.34>
+! 							<ControllerTargets.35 Id="22354">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.35>
+! 							<ControllerTargets.36 Id="22355">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.36>
+! 							<ControllerTargets.37 Id="22356">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.37>
+! 							<ControllerTargets.38 Id="22357">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.38>
+! 							<ControllerTargets.39 Id="22358">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.39>
+! 							<ControllerTargets.40 Id="22359">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.40>
+! 							<ControllerTargets.41 Id="22360">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.41>
+! 							<ControllerTargets.42 Id="22361">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.42>
+! 							<ControllerTargets.43 Id="22362">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.43>
+! 							<ControllerTargets.44 Id="22363">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.44>
+! 							<ControllerTargets.45 Id="22364">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.45>
+! 							<ControllerTargets.46 Id="22365">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.46>
+! 							<ControllerTargets.47 Id="22366">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.47>
+! 							<ControllerTargets.48 Id="22367">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.48>
+! 							<ControllerTargets.49 Id="22368">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.49>
+! 							<ControllerTargets.50 Id="22369">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.50>
+! 							<ControllerTargets.51 Id="22370">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.51>
+! 							<ControllerTargets.52 Id="22371">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.52>
+! 							<ControllerTargets.53 Id="22372">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.53>
+! 							<ControllerTargets.54 Id="22373">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.54>
+! 							<ControllerTargets.55 Id="22374">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.55>
+! 							<ControllerTargets.56 Id="22375">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.56>
+! 							<ControllerTargets.57 Id="22376">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.57>
+! 							<ControllerTargets.58 Id="22377">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.58>
+! 							<ControllerTargets.59 Id="22378">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.59>
+! 							<ControllerTargets.60 Id="22379">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.60>
+! 							<ControllerTargets.61 Id="22380">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.61>
+! 							<ControllerTargets.62 Id="22381">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.62>
+! 							<ControllerTargets.63 Id="22382">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.63>
+! 							<ControllerTargets.64 Id="22383">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.64>
+! 							<ControllerTargets.65 Id="22384">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.65>
+! 							<ControllerTargets.66 Id="22385">
+  								<LockEnvelope Value="1" />
+  							</ControllerTargets.66>
+! 							<ControllerTargets.67 Id="22386">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.67>
+! 							<ControllerTargets.68 Id="22387">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.68>
+! 							<ControllerTargets.69 Id="22388">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.69>
+! 							<ControllerTargets.70 Id="22389">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.70>
+! 							<ControllerTargets.71 Id="22390">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.71>
+! 							<ControllerTargets.72 Id="22391">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.72>
+! 							<ControllerTargets.73 Id="22392">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.73>
+! 							<ControllerTargets.74 Id="22393">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.74>
+! 							<ControllerTargets.75 Id="22394">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.75>
+! 							<ControllerTargets.76 Id="22395">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.76>
+! 							<ControllerTargets.77 Id="22396">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.77>
+! 							<ControllerTargets.78 Id="22397">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.78>
+! 							<ControllerTargets.79 Id="22398">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.79>
+! 							<ControllerTargets.80 Id="22399">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.80>
+! 							<ControllerTargets.81 Id="22400">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.81>
+! 							<ControllerTargets.82 Id="22401">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.82>
+! 							<ControllerTargets.83 Id="22402">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.83>
+! 							<ControllerTargets.84 Id="22403">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.84>
+! 							<ControllerTargets.85 Id="22404">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.85>
+! 							<ControllerTargets.86 Id="22405">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.86>
+! 							<ControllerTargets.87 Id="22406">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.87>
+! 							<ControllerTargets.88 Id="22407">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.88>
+! 							<ControllerTargets.89 Id="22408">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.89>
+! 							<ControllerTargets.90 Id="22409">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.90>
+! 							<ControllerTargets.91 Id="22410">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.91>
+! 							<ControllerTargets.92 Id="22411">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.92>
+! 							<ControllerTargets.93 Id="22412">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.93>
+! 							<ControllerTargets.94 Id="22413">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.94>
+! 							<ControllerTargets.95 Id="22414">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.95>
+! 							<ControllerTargets.96 Id="22415">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.96>
+! 							<ControllerTargets.97 Id="22416">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.97>
+! 							<ControllerTargets.98 Id="22417">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.98>
+! 							<ControllerTargets.99 Id="22418">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.99>
+! 							<ControllerTargets.100 Id="22419">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.100>
+! 							<ControllerTargets.101 Id="22420">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.101>
+! 							<ControllerTargets.102 Id="22421">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.102>
+! 							<ControllerTargets.103 Id="22422">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.103>
+! 							<ControllerTargets.104 Id="22423">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.104>
+! 							<ControllerTargets.105 Id="22424">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.105>
+! 							<ControllerTargets.106 Id="22425">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.106>
+! 							<ControllerTargets.107 Id="22426">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.107>
+! 							<ControllerTargets.108 Id="22427">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.108>
+! 							<ControllerTargets.109 Id="22428">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.109>
+! 							<ControllerTargets.110 Id="22429">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.110>
+! 							<ControllerTargets.111 Id="22430">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.111>
+! 							<ControllerTargets.112 Id="22431">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.112>
+! 							<ControllerTargets.113 Id="22432">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.113>
+! 							<ControllerTargets.114 Id="22433">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.114>
+! 							<ControllerTargets.115 Id="22434">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.115>
+! 							<ControllerTargets.116 Id="22435">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.116>
+! 							<ControllerTargets.117 Id="22436">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.117>
+! 							<ControllerTargets.118 Id="22437">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.118>
+! 							<ControllerTargets.119 Id="22438">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.119>
+! 							<ControllerTargets.120 Id="22439">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.120>
+! 							<ControllerTargets.121 Id="22440">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.121>
+! 							<ControllerTargets.122 Id="22441">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.122>
+! 							<ControllerTargets.123 Id="22442">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.123>
+! 							<ControllerTargets.124 Id="22443">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.124>
+! 							<ControllerTargets.125 Id="22444">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.125>
+! 							<ControllerTargets.126 Id="22445">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.126>
+! 							<ControllerTargets.127 Id="22446">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.127>
+! 							<ControllerTargets.128 Id="22447">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.128>
+! 							<ControllerTargets.129 Id="22448">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.129>
+! 							<ControllerTargets.130 Id="22449">
+  								<LockEnvelope Value="0" />
+  							</ControllerTargets.130>
+  						</MidiControllers>
+***************
+*** 3464,3470 ****
+  								</Events>
+  							</ArrangerAutomation>
+  							<Manual Value="true" />
+! 							<AutomationTarget Id="22044">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+  							<MidiCCOnOffThresholds>
+--- 3464,3470 ----
+  								</Events>
+  							</ArrangerAutomation>
+  							<Manual Value="true" />
+! 							<AutomationTarget Id="22450">
+  								<LockEnvelope Value="0" />
+  							</AutomationTarget>
+  							<MidiCCOnOffThresholds>
+***************
+*** 3559,3577 ****
+  								<Events />
+  							</ArrangerAutomation>
+  						</Sample>
+! 						<VolumeModulationTarget Id="22045">
+  							<LockEnvelope Value="0" />
+  						</VolumeModulationTarget>
+! 						<TranspositionModulationTarget Id="22046">
+  							<LockEnvelope Value="0" />
+  						</TranspositionModulationTarget>
+! 						<GrainSizeModulationTarget Id="22047">
+  							<LockEnvelope Value="0" />
+  						</GrainSizeModulationTarget>
+! 						<FluxModulationTarget Id="22048">
+  							<LockEnvelope Value="0" />
+  						</FluxModulationTarget>
+! 						<SampleOffsetModulationTarget Id="22049">
+  							<LockEnvelope Value="0" />
+  						</SampleOffsetModulationTarget>
+  						<PitchViewScrollPosition Value="-1073741824" />
+--- 3559,3577 ----
+  								<Events />
+  							</ArrangerAutomation>
+  						</Sample>
+! 						<VolumeModulationTarget Id="22451">
+  							<LockEnvelope Value="0" />
+  						</VolumeModulationTarget>
+! 						<TranspositionModulationTarget Id="22452">
+  							<LockEnvelope Value="0" />
+  						</TranspositionModulationTarget>
+! 						<GrainSizeModulationTarget Id="22453">
+  							<LockEnvelope Value="0" />
+  						</GrainSizeModulationTarget>
+! 						<FluxModulationTarget Id="22454">
+  							<LockEnvelope Value="0" />
+  						</FluxModulationTarget>
+! 						<SampleOffsetModulationTarget Id="22455">
+  							<LockEnvelope Value="0" />
+  						</SampleOffsetModulationTarget>
+  						<PitchViewScrollPosition Value="-1073741824" />
+***************
+*** 3595,3601 ****
+  										</Events>
+  									</ArrangerAutomation>
+  									<Manual Value="true" />
+! 									<AutomationTarget Id="22050">
+  										<LockEnvelope Value="0" />
+  									</AutomationTarget>
+  									<MidiCCOnOffThresholds>
+--- 3595,3601 ----
+  										</Events>
+  									</ArrangerAutomation>
+  									<Manual Value="true" />
+! 									<AutomationTarget Id="22456">
+  										<LockEnvelope Value="0" />
+  									</AutomationTarget>
+  									<MidiCCOnOffThresholds>
+***************
+*** 3618,3626 ****
+  									<Value>
+  										<BranchSourceContext>
+  											<OriginalFileRef />
+! 											<BrowserContentPath Value="query:Plugins#VST:Local:Massive" />
+  											<PresetRef />
+! 											<BranchDeviceId Value="device:vst:instr:1315523937?n=Massive" />
+  										</BranchSourceContext>
+  									</Value>
+  								</SourceContext>
+--- 3618,3626 ----
+  									<Value>
+  										<BranchSourceContext>
+  											<OriginalFileRef />
+! 											<BrowserContentPath Value="query:Plugins#VST:Local:Serum" />
+  											<PresetRef />
+! 											<BranchDeviceId Value="device:vst:instr:1483109208?n=Serum" />
+  										</BranchSourceContext>
+  									</Value>
+  								</SourceContext>
+***************
+*** 3640,3653 ****
+  												001300012F00FFFF0000
+  											</Data>
+  										</Dir>
+! 										<FileName Value="Massive.vst" />
+! 										<PlugName Value="Massive" />
+! 										<UniqueId Value="1315523937" />
+  										<Inputs Value="0" />
+  										<Outputs Value="0" />
+! 										<NumberOfParameters Value="149" />
+! 										<NumberOfPrograms Value="128" />
+! 										<Flags Value="67117319" />
+  										<Preset>
+  											<VstPreset>
+  												<OverwriteProtectionNumber Value="2305" />
+--- 3640,3653 ----
+  												001300012F00FFFF0000
+  											</Data>
+  										</Dir>
+! 										<FileName Value="Serum.vst" />
+! 										<PlugName Value="Serum" />
+! 										<UniqueId Value="1483109208" />
+  										<Inputs Value="0" />
+  										<Outputs Value="0" />
+! 										<NumberOfParameters Value="227" />
+! 										<NumberOfPrograms Value="1" />
+! 										<Flags Value="67117317" />
+  										<Preset>
+  											<VstPreset>
+  												<OverwriteProtectionNumber Value="2305" />
+***************
+*** 3665,3748 ****
+  												<IsOnLomId Value="0" />
+  												<ParametersListWrapperLomId Value="0" />
+  												<Type Value="1178747752" />
+! 												<ProgramCount Value="128" />
+! 												<ParameterCount Value="149" />
+  												<ProgramNumber Value="0" />
+  												<Buffer>
+! 													9709000000000000010000006873696E010000000000000025F7BEA033C54B94BDEDA39218BE8A8E
+! 													92000000000000004453494E760000000100000048000000000000004453494E6A00000001000000
+! 													18000000000000004453494E01000000010000000100000001000000010000000100000000000000
+! 													00000000000000000D62658501000000002010000000000001000000010000000000000000000000
+! 													00000000010000003000000000000000000000000000000000000100000001000000000000004453
+! 													494E65000000C908000000000000010000006873696E010000000000000029D6292244F0463AB6A3
+! 													B1B7E30C860467000000000000004453494E650000000100000034000000000000004453494E6A00
+! 													00000100000018000000000000004453494E01000000010000000100000001000000020000000100
+! 													00000007000000010000000700000031002E0033002E0030002E0030000100000003000000000000
+! 													004453494E6C000000D200000000000000010000006873696E010000000000000012A8975FEC1949
+! 													038CE2B0D5E9D4C2A7A2000000000000004453494E6C000000010000001800000000000000445349
+! 													4E010000000100000001000000010000000200000001000000000000000800000055006E00740069
+! 													0074006C0065006400000000000000000000000000000000000200000002000000B0040000000000
+! 													000000000000000000010000000100000001000000070000004D0061007300730069007600650000
+! 													00000000000000000000000100000000000000020000004453494E79000000680000000000000001
+! 													0000006873696E01000000000000005375CD1263BD4A7E87853B65699176DF380000000000000044
+! 													53494E790000000100000018000000000000004453494E0100000001000000010000000100000001
+! 													000000000000000100000000000000010000004453494E74000000D4060000000000000100000068
+! 													73696E0100000000000000BC6E30F3EB12494AA8C5302D658E538BA4060000000000004453494E74
+! 													000000010000008B060000000000004453494E730000000100000018000000000000004453494E01
+! 													00000001000000010000000100000001F51700005206000002F51700600000012005036873696E40
+! 													07400010960BE0840AFA49959762166B5D6AF26D1840142000034453494E4023E007034000401B00
+! 													6D200801A117200420004023E0035310A34575EC28CB44838B8F65310A81A89E71A027C037402FE0
+! 													176740230029A0370005206301B516200420000374737270C03BE01600003F201F20030080A00340
+! 													0B6003200040136000201B60032000E00413C000401F400040074003E037004043C0034000C00B03
+! 													3FCDCC4C60032014400340004007E00A0340A7E01303E01700E0073BE0250020A7003DE003030000
+! 													E0094FE00AB3E01313E0158F02CDCCCC206FE001030000E00D00E00B73624302000301626B424F00
+! 													02200E0280000060034253E0140040304003003C202540074003E0230BE0246CE07E2C40E3400340
+! 													E74000400B4003E0070FE00000401CA000400A00012001E019000004A022035555294140F8400000
+! 													FF20004007C00900082009E000280000222301030080002027E004284000201220130009400AC05B
+! 													0000E01C32010A002000E00332E00F8E000B2027E20032C030E013BF000D202FE000280000E01C8C
+! 													010E002000C05B0000E01C32010F002000E00332E00FBF00102027E024BF0012202FE00459E1197F
+! 													00132031E0263200142031E00432E00FBF00152027E000BF4263419080F80540C000002041E0199E
+! 													01210020008032000061BAE0193200222029E0003200002191E00F9E0123002000E0299200242035
+! 													E0005F424DE0199200252031E000320000E012920126002000C0EEC0070000E012300128002000E0
+! 													1B2800292027E00129E01B31002A202FE01C28002B202783CE4000200A63DAC00041F7C06E412DE1
+! 													0F8D001C20376224C038C000C03C0000E11206011D002000E0012800C0E110F3011E002000E00128
+! 													E2111C011F002000E01B280120002000E01B28001A20270000422BE01B2C692C802800C0232A01C0
+! 													40E10F36A96C8000416BA0350480BF000000E010350184002000805EE015280185002000402806EB
+! 													518640C058ACE010510086202760280000E01651018700200040518000E111810127002000802868
+! 													6C00BFE10F02013600200080284000C051A4FD211301803F424B020001FE2006A028E015F5013800
+! 													2000E02051C000C03002ABAAAA68F04007207D6000207920280081400BC02601000040D640000180
+! 													3FE005260182002000802680A7E0051E0183002000410C80220540C200009042E00522017F002000
+! 													801E4087012A3EE0051E0180004000C01F010000E00780017E00E00F004076E00B00E00B17407340
+! 													030000E0005F01803F49C02013C070E0EC10612B2104E02402200040374003E047006053E0248C20
+! 													2C2000E407CB80150000A2EB005A2009E21262005E201DE0121E0062201DE0121E0066201DE0121E
+! 													006A201D601E076C3F0542501ADBC2E0059A006E201D601E8000E007B90172002000E3111C007620
+! 													1DE0121E007A201D6000C073E00500E11534005B402CE0117A005FE0151E0063E0151E0067E0151E
+! 													006BC01EE10D34006FC01E8000E107340173002000E011B90077201DE0121E007B201D6000E12B34
+! 													005C4039E0117A0160002000E0111E0064201DE0121E0068201DE0121E006C201D601EE10D340070
+! 													201D601E8000E107340174002000E0119A0078201DE0121E007C201D6000E12B34005D4039E0117A
+! 													0061E0151E0065E0151E0069E0151E5285607BE10D340071201D601E8000E107340175002000E011
+! 													B90079201DE0121E007D201D6000E10D34405740038000E0077A013E002000801E47BB0180BFC044
+! 													27DD27DE0142002000801E4000E0073D014600A000EE020000D827BC011043E00546003A60260101
+! 													01C015405140038000E007555143A01EE00B930143002000E0113D0047201D6000E01693003B6024
+! 													E01F9301400020008074E00B930144002000801E4000E007D1014800A000E0169390DFE01F930041
+! 													40548074E00B930145002000801E4000E00793014900A000E0169369F8E00293675B81A4CC9341B0
+! 													E01C0B462A0011203CE00395A04FA27040002279227A002C400AE01B28002DE01F28002EE01F2800
+! 													2F4028634E409C42B44007E023BC0030203FE01CBC00312027E01C2800322027E01C2800332027E0
+! 													01B4C0BC40C0020000F023CF417F4000036B6E6162801580006B41011B0080000363746E6952FA40
+! 													F371B32000A296219CEE00C002736975E70482066770746359544D62790B0D626585010000000000
+! 													000001000000000100000000000000
+  												</Buffer>
+  												<Name Value="" />
+  												<PluginVersion Value="1" />
+! 												<UniqueId Value="1315523937" />
+  												<ByteOrder Value="2" />
+  												<PresetRef />
+  											</VstPreset>
+  										</Preset>
+  										<Version Value="1" />
+  										<VstVersion Value="2400" />
+! 										<WinPosX Value="54" />
+! 										<WinPosY Value="84" />
+  										<IsShellClient Value="false" />
+  										<Category Value="2" />
+  										<PresetDirectory>
+--- 3665,3742 ----
+  												<IsOnLomId Value="0" />
+  												<ParametersListWrapperLomId Value="0" />
+  												<Type Value="1178747752" />
+! 												<ProgramCount Value="1" />
+! 												<ParameterCount Value="227" />
+  												<ProgramNumber Value="0" />
+  												<Buffer>
+! 													7801ED5B7B5455551A3F1779EA8086238E30E895264C30085018F19EEF030C790681C904E5035D22
+! 													17114D53C819ED228B2285F05109B9D469A166E058861926F79E881A3571A531BE234074553E5087
+! 													6154183DB3F7795CEEB949336B66E51FDCF3ADF5DDBDCFDEBFEFB7BFFDEDEF6CCE0B86619011C480
+! 													4CAACE4B231E306B990EB1D5C0F01129AC1739E8C3F5B00FC069F8393B40894BF7318297879112F5
+! 													F1D9F126D3BE7A059FA7B6DEE344CB21256E10CF8F76D129705777EAA69499689B059F3D7FB6E4B7
+! 													AC02979FC8763AA5D3360B9C031FD6B65689B3AF62E1D7EF5BE11CF9FAEF0E2B71975BD92B972E5B
+! 													E19C78A7660D28C63DED0A6F9F1F46DB2CC675E65FB2D32A7107FCA1AB3AC00AE7C237CD6195B8D0
+! 													38701B9E68851BCCB36F66287173B320EB79BD156E08FFDECA7C25AEB4101AEFAEB1C2FD8AFFECFE
+! 													EB4ADC8E72F8D1658315CE958FEEDDACC4ADDA0A7CCB362B9C1B9F766EA712E757033E6BF658E186
+! 													F23DE1B5B4AD8DE75B696EA9A51A07350FD4F340DD07D47D40DD07D47D40DE07E8E594246DD235E8
+! 													4DB5142232F0E310F3772FDCAEF792D65BCD033102037FDDADE779EA954AE81C5121DC43C85940B6
+! 													48751F1082613BF9F0C5EFB61A03665519FB7280D6D43C10E3613B7970F4789BC961C4459372DEE2
+! 													11C3D84E1C94F3B7BD792FF408E586168772CA38A879A08CC7C0CF8B29FB33B9ACEE4C350F84851F
+! 													F8EBDD5F7E4F74CDE1560CC951F3C0C6F3605CD233DCD4AE64CE8E080905BD4F30AB8688983FCADF
+! 													B00509346FCC385AE7AD2492345AAA92E1BF3A929F6BA8A5FA9C93E69A9A076A1EA879A09E07EA3E
+! 													A0EE03741FB010DBBD8E1783607BF3BFC32662CFF204350F8404B0BDF597F33EB7371FF2A62FB57A
+! 													DF61BBF190E3626BE5EF6FF59826E9EF49CFB9C5D9ABCFB76DEF3CC8DD9EC52D19BE8053E6BF9A0F
+! 													CA780CFCBC088A8EE5FC5F8951F34058F881BFDEFDE5B7DB912853E70D9DFAFED3C6F3A0A7640666
+! 													7D9426DD2FC8E7839835EA75821C8F815FCECFAE8576662FD0771BC113AA20B9762B147B54C0CC8D
+! 													1BC1F35E29D4A5BD06FC5F0BE1029F0FF7CB72E1C34B7360E1CC19E0F3491C6CB40730C5048373B1
+! 													2F4CA8F584835FB9C1B317EDC0E0D2C97AEF3FC57E73C0C89665EC64EF5E2F65038FE9D9FBAB27B3
+! 													635C5D586DEB07BAFC726FDDB77F733F145C905D5FF18FD3F59A4FBD8CF73F4A343EBB789531D471
+! 													B331242484E46604CD4F6BA5492AF749755A1824DCFF6263A0F74B96E350422222D7DE9876E17F78
+! 													4803C118F09F8FBF40F0068A374B6940B8F03F47C79B9A642CE91330F820FB07B511034B1F647EB9
+! 													64CE6E3100D57C130F3DABFD906A7F75CAD5D8BD1BA8967FDE2DF834FE8572699E06625B2D70BC53
+! 													390AA95A8C4DAA54A8EF425CC4C33EDFA43E0123C741B29763D217CFE34D8956DCE63E81478A17F1
+! 													A152F04DC4CB3C5A624B9561084EF29D91F822041BC98E4288C87602466C127F51B437C06371EE02
+! 													1F69964B4BDCCFD429B7016BAA0713BD427DB114A14F1A9FF25AAA8C9330B48F723DEC521853F6E5
+! 													E74AEADBFF2366FB1BC6DB727E3035D57E2C5599D8EAF5A8CD1C92F94BEBAF38B7E4B030AD5FFC86
+! 													1331429339969FA73DC9E92F315CC3CC30A9DF80877D2365AC194773EBB6772A6D97A46F9C739DB3
+! 													39E63AC3BDD93ECFCCD1E1AFE72CCE51D988F259729AF3DD9B7C27C138305C60B75EE260B0613FE5
+! 													10F63D0B3B038E1B44C6334B9F1FFB9725714C16C30D8F8D1538E839FCEA1CA01CF05D229D9F96F0
+! 													50157C20E7AEB0875026DA26C88EE96E1C7919CFBD71C79EE0459C584660C7C7674C9453DE1BD614
+! 													ED318956CADF606392E9E44DC654D53B9AF69BF74B719F34A0BC6FA6440F63F5493946A5B5E84BD9
+! 													D1EDECE27886DD55DB43735BF07946738410AF8B45B9E6B8C97DF27E2BEFBF947349E579F8D71E06
+! 													3AB75EA378C26130CF73926E88B94EB15662EEBB9B1C800D690C9E4A9848DB042D2ED509FDB3D744
+! 													CA6DA4CB00495CBCD04EB9A47D95B127F56D23D37011B1FDD3C674A41F3AD00F200611A57D0E441D
+! 													893A117526EA42541535026A046C3B02C94B1764E6E9E72D0B8C9CAACD5EBE2828203F73856D47C4
+! 													B666DFDF859B10053B8D8EB12BD431450DA4D4B0EBA3C6B2C38A22D9F58D99ACB35D211BEBB3812D
+! 													897A973D32771FEB5CD4C0C6569D644B1ADBD9131DB748BF061E777781589F47203B781494448D85
+! 													DDA9E3E1C8DC20F861E964702E8A84099BE220B12A05726BD3A1B43113F634EBA1A9E345B8D6F532
+! 													38DA1582C7E062F0757F1D423DCB609ACF0678CEEF2DC2550905E15B09DFBB5011BF9370BE0F7519
+! 													7F21BCFBE06CCEC784FB20DC596924FC0DE0B9EE4BF0DB7414C2B71C87F8AA939051730A726ACFC1
+! 													CA432DB0B6B11DDE397619AA9B7F844F2F5C87AF3A6EC1F9ABDD70A5EB2EF4F4DE23E36BD0CD7110
+! 													7A0C76C0D16E4EE8EBEE82011E4330D4D31561F4509CE6F30826F90EC734BF11382B602466058FC2
+! 													BC502F5C11EE8DAB610CBE1A3516DF98F628BE1DFF186E4B1A87BB52C7E3DE347F3C90F10472B302
+! 													F1F0DC20FC3A2B04CFE44CC2D6BC30FC7EE964BCB1620ADE5EC922BF1AD1A9281287BE361547AE8B
+! 													C631E531386E531C066E4EC0B02D4F63C4F6648CAD4AC167DE9B8ECFD5CCC0391FFC01B36BD371C9
+! 													27CF63C1A19968E06663496326AE3F3C0F2B8ECDC73F7FBD007737EBF1C3330BB1EEC222FCAC7531
+! 													1EE978114F7CBF0CCF5E5D8E6D37F2F187AE97F1E6ED3FE29DDE5582AAEB6FF3EBAF7E97A4FC2EC9
+! 													E20F83FC5CB14DBA0EFFE5CB7507EB00C9733E0B2748F5E1FB31B2E01BD39397BE35897EC8E3CB5E
+! 													FDF27110476AC3BC5B995C549B701F6C118787EF47CBFC04CE7F5A2CA7D1447327BE8CE45AE60257
+! 													70399C0B7A2A8C3BB02B84933DB263B44F68E3F2F42F91426EB32EAFA5D4999FAF68FB4480D1FB39
+! 													2AF49E8E8A75A9155AC5FB3D5AD59EAEE5F9ED3C2F35FF046F6D6F7D1CB1AC5AB0FF4FE3D2FB4B4B
+! 													898A4D8D792A3A26E6E9C8A9A9C9DA20A63F7BB13F98192B19CBE3CB7C627F48BF7E8BFD13FBEDB7
+! 													F449ADAB115023A046408D80ED44E0DF61E7AE817801030000000001AC080000
+  												</Buffer>
+  												<Name Value="" />
+  												<PluginVersion Value="1" />
+! 												<UniqueId Value="1483109208" />
+  												<ByteOrder Value="2" />
+  												<PresetRef />
+  											</VstPreset>
+  										</Preset>
+  										<Version Value="1" />
+  										<VstVersion Value="2400" />
+! 										<WinPosX Value="61" />
+! 										<WinPosY Value="96" />
+  										<IsShellClient Value="false" />
+  										<Category Value="2" />
+  										<PresetDirectory>
+***************
+*** 3768,3777 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22051">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22052">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 3762,3771 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22457">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22458">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 3795,3804 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22053">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22054">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 3789,3798 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22459">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22460">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 3822,3831 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22055">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22056">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 3816,3825 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22461">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22462">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 3849,3858 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22057">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22058">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 3843,3852 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22463">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22464">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 3876,3885 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22059">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22060">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 3870,3879 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22465">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22466">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 3903,3912 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22061">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22062">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 3897,3906 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22467">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22468">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 3930,3939 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22063">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22064">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 3924,3933 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22469">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22470">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 3957,3966 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22065">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22066">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 3951,3960 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22471">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22472">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 3984,3993 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22067">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22068">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 3978,3987 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22473">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22474">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4011,4020 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22069">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22070">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4005,4014 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22475">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22476">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4038,4047 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22071">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22072">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4032,4041 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22477">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22478">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4065,4074 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22073">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22074">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4059,4068 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22479">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22480">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4092,4101 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22075">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22076">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4086,4095 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22481">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22482">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4119,4128 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22077">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22078">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4113,4122 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22483">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22484">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4146,4155 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22079">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22080">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4140,4149 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22485">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22486">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4173,4182 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22081">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22082">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4167,4176 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22487">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22488">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4200,4209 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22083">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22084">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4194,4203 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22489">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22490">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4227,4236 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22085">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22086">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4221,4230 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22491">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22492">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4254,4263 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22087">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22088">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4248,4257 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22493">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22494">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4281,4290 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22089">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22090">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4275,4284 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22495">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22496">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4308,4317 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22091">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22092">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4302,4311 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22497">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22498">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4335,4344 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22093">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22094">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4329,4338 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22499">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22500">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4362,4371 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22095">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22096">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4356,4365 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22501">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22502">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4389,4398 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22097">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22098">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4383,4392 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22503">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22504">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4416,4425 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22099">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22100">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4410,4419 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22505">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22506">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4443,4452 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22101">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22102">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4437,4446 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22507">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22508">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4470,4479 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22103">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22104">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4464,4473 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22509">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22510">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4497,4506 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22105">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22106">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4491,4500 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22511">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22512">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4524,4533 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22107">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22108">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4518,4527 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22513">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22514">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4551,4560 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22109">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22110">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4545,4554 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22515">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22516">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4578,4587 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22111">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22112">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4572,4581 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22517">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22518">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4605,4614 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22113">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22114">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4599,4608 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22519">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22520">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4632,4641 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22115">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22116">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4626,4635 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22521">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22522">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4659,4668 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22117">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22118">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4653,4662 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22523">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22524">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4686,4695 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22119">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22120">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4680,4689 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22525">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22526">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4713,4722 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22121">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22122">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4707,4716 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22527">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22528">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4740,4749 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22123">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22124">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4734,4743 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22529">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22530">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4767,4776 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22125">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22126">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4761,4770 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22531">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22532">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4794,4803 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22127">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22128">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4788,4797 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22533">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22534">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4821,4830 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22129">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22130">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4815,4824 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22535">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22536">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4848,4857 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22131">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22132">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4842,4851 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22537">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22538">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4875,4884 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22133">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22134">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4869,4878 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22539">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22540">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4902,4911 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22135">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22136">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4896,4905 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22541">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22542">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4929,4938 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22137">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22138">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4923,4932 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22543">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22544">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4956,4965 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22139">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22140">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4950,4959 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22545">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22546">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 4983,4992 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22141">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22142">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 4977,4986 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22547">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22548">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5010,5019 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22143">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22144">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5004,5013 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22549">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22550">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5037,5046 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22145">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22146">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5031,5040 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22551">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22552">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5064,5073 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22147">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22148">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5058,5067 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22553">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22554">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5091,5100 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22149">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22150">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5085,5094 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22555">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22556">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5118,5127 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22151">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22152">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5112,5121 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22557">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22558">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5145,5154 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22153">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22154">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5139,5148 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22559">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22560">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5172,5181 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22155">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22156">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5166,5175 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22561">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22562">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5199,5208 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22157">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22158">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5193,5202 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22563">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22564">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5226,5235 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22159">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22160">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5220,5229 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22565">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22566">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5253,5262 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22161">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22162">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5247,5256 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22567">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22568">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5280,5289 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22163">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22164">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5274,5283 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22569">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22570">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5307,5316 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22165">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22166">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5301,5310 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22571">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22572">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5334,5343 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22167">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22168">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5328,5337 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22573">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22574">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5361,5370 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22169">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22170">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5355,5364 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22575">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22576">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5388,5397 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22171">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22172">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5382,5391 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22577">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22578">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5415,5424 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22173">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22174">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5409,5418 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22579">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22580">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5442,5451 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22175">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22176">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5436,5445 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22581">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22582">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5469,5478 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22177">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22178">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5463,5472 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22583">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22584">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5496,5505 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22179">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22180">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5490,5499 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22585">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22586">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5523,5532 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22181">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22182">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5517,5526 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22587">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22588">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5550,5559 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22183">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22184">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5544,5553 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22589">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22590">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5577,5586 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22185">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22186">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5571,5580 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22591">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22592">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5604,5613 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22187">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22188">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5598,5607 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22593">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22594">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5631,5640 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22189">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22190">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5625,5634 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22595">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22596">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5658,5667 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22191">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22192">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5652,5661 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22597">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22598">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5685,5694 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22193">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22194">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5679,5688 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22599">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22600">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5712,5721 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22195">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22196">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5706,5715 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22601">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22602">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5739,5748 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22197">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22198">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5733,5742 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22603">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22604">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5766,5775 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22199">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22200">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5760,5769 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22605">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22606">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5793,5802 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22201">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22202">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5787,5796 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22607">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22608">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5820,5829 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22203">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22204">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5814,5823 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22609">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22610">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5847,5856 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22205">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22206">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5841,5850 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22611">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22612">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5874,5883 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22207">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22208">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5868,5877 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22613">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22614">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5901,5910 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22209">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22210">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5895,5904 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22615">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22616">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5928,5937 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22211">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22212">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5922,5931 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22617">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22618">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5955,5964 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22213">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22214">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5949,5958 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22619">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22620">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 5982,5991 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22215">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22216">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 5976,5985 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22621">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22622">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6009,6018 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22217">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22218">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6003,6012 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22623">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22624">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6036,6045 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22219">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22220">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6030,6039 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22625">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22626">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6063,6072 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22221">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22222">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6057,6066 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22627">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22628">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6090,6099 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22223">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22224">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6084,6093 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22629">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22630">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6117,6126 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22225">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22226">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6111,6120 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22631">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22632">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6144,6153 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22227">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22228">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6138,6147 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22633">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22634">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6171,6180 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22229">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22230">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6165,6174 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22635">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22636">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6198,6207 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22231">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22232">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6192,6201 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22637">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22638">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6225,6234 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22233">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22234">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6219,6228 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22639">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22640">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6252,6261 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22235">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22236">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6246,6255 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22641">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22642">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6279,6288 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22237">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22238">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6273,6282 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22643">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22644">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6306,6315 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22239">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22240">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6300,6309 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22645">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22646">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6333,6342 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22241">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22242">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6327,6336 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22647">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22648">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6360,6369 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22243">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22244">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6354,6363 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22649">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22650">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6387,6396 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22245">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22246">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6381,6390 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22651">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22652">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6414,6423 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22247">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22248">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6408,6417 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22653">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22654">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6441,6450 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22249">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22250">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6435,6444 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22655">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22656">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6468,6477 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22251">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22252">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6462,6471 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22657">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22658">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6495,6504 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22253">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22254">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6489,6498 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22659">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22660">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6522,6531 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22255">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22256">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6516,6525 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22661">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22662">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6549,6558 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22257">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22258">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6543,6552 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22663">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22664">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6576,6585 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22259">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22260">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6570,6579 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22665">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22666">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6603,6612 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22261">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22262">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6597,6606 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22667">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22668">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6630,6639 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22263">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22264">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6624,6633 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22669">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22670">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6657,6666 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22265">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22266">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6651,6660 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22671">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22672">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6684,6693 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22267">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22268">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6678,6687 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22673">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22674">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6711,6720 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22269">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22270">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6705,6714 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22675">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22676">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6738,6747 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22271">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22272">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6732,6741 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22677">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22678">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6765,6774 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22273">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22274">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6759,6768 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22679">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22680">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6792,6801 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22275">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22276">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6786,6795 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22681">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22682">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6819,6828 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22277">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22278">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6813,6822 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22683">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22684">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6846,6855 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22279">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22280">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6840,6849 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22685">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22686">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6873,6882 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22281">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22282">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6867,6876 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22687">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22688">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6900,6909 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22283">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22284">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6894,6903 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22689">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22690">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6927,6936 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22285">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22286">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6921,6930 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22691">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22692">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6954,6963 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22287">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22288">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6948,6957 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22693">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22694">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 6981,6990 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22289">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22290">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 6975,6984 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22695">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22696">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 7008,7017 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22291">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22292">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 7002,7011 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22697">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22698">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 7035,7044 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22293">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22294">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 7029,7038 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22699">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22700">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 7062,7071 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22295">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22296">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 7056,7065 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22701">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22702">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 7089,7098 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22297">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22298">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 7083,7092 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22703">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22704">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 7116,7125 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22299">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22300">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 7110,7119 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22705">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22706">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 7143,7152 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22301">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22302">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 7137,7146 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22707">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22708">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 7170,7179 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22303">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22304">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 7164,7173 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22709">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22710">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 7197,7206 ****
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22305">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22306">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+--- 7191,7200 ----
+  												<Min Value="0" />
+  												<Max Value="1" />
+  											</MidiControllerRange>
+! 											<AutomationTarget Id="22711">
+  												<LockEnvelope Value="0" />
+  											</AutomationTarget>
+! 											<ModulationTarget Id="22712">
+  												<LockEnvelope Value="0" />
+  											</ModulationTarget>
+  											<ModulationAutomation>
+***************
+*** 9531,9537 ****
+  		<ArrangementOverdub Value="false" />
+  		<ColorSequenceIndex Value="4" />
+  		<AutoColorPickerForPlayerAndGroupTracks>
+! 			<NextColorIndex Value="14" />
+  		</AutoColorPickerForPlayerAndGroupTracks>
+  		<AutoColorPickerForReturnAndMasterTracks>
+  			<NextColorIndex Value="3" />
+--- 9525,9531 ----
+  		<ArrangementOverdub Value="false" />
+  		<ColorSequenceIndex Value="4" />
+  		<AutoColorPickerForPlayerAndGroupTracks>
+! 			<NextColorIndex Value="15" />
+  		</AutoColorPickerForPlayerAndGroupTracks>
+  		<AutoColorPickerForReturnAndMasterTracks>
+  			<NextColorIndex Value="3" />

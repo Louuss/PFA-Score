@@ -1,0 +1,17 @@
+<rates>
+<rate>
+<from>a</from>
+<to>b</to>
+<conversion>0.1</conversion>
+</rate>
+<rate>
+<from>b</from>
+<to>c</to>
+<conversion>0.2</conversion>
+</rate>
+<rate>
+<from>c</from>
+<to>d</to>
+<conversion>0.3</conversion>
+</rate>
+</rates>

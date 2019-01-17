@@ -1,0 +1,4547 @@
+*** a2.xml	2018-12-02 15:58:47.000000000 +0100
+--- a1.xml	2018-12-02 16:10:32.000000000 +0100
+***************
+*** 828,834 ****
+  							</ArrangerAutomation>
+  						</ClipTimeable>
+  						<Recorder>
+! 							<IsArmed Value="true" />
+  							<TakeCounter Value="0" />
+  						</Recorder>
+  						<MidiControllers>
+--- 828,834 ----
+  							</ArrangerAutomation>
+  						</ClipTimeable>
+  						<Recorder>
+! 							<IsArmed Value="false" />
+  							<TakeCounter Value="0" />
+  						</Recorder>
+  						<MidiControllers>
+***************
+*** 4993,4998 ****
+--- 4993,9486 ----
+  				</DeviceChain>
+  				<ReWireSlaveMidiTargetId Value="0" />
+  			</MidiTrack>
++ 			<MidiTrack Id="16">
++ 				<LomId Value="0" />
++ 				<LomIdView Value="0" />
++ 				<EnvelopeModePreferred Value="false" />
++ 				<TrackDelay>
++ 					<Value Value="0" />
++ 					<IsValueSampleBased Value="false" />
++ 				</TrackDelay>
++ 				<Name>
++ 					<EffectiveName Value="3-Serum" />
++ 					<UserName Value="" />
++ 					<Annotation Value="" />
++ 				</Name>
++ 				<ColorIndex Value="145" />
++ 				<TrackGroupId Value="-1" />
++ 				<TrackUnfolded Value="false" />
++ 				<DevicesListWrapper LomId="0" />
++ 				<ClipSlotsListWrapper LomId="0" />
++ 				<SavedPlayingSlot Value="-1" />
++ 				<SavedPlayingOffset Value="0" />
++ 				<MidiFoldIn Value="false" />
++ 				<MidiPrelisten Value="false" />
++ 				<Freeze Value="false" />
++ 				<VelocityDetail Value="0" />
++ 				<NeedArrangerRefreeze Value="true" />
++ 				<PostProcessFreezeClips Value="0" />
++ 				<MidiTargetPrefersFoldOrIsNotUniform Value="false" />
++ 				<DeviceChain>
++ 					<AutomationLanes>
++ 						<AutomationLanes>
++ 							<AutomationLane>
++ 								<SelectedDevice Value="0" />
++ 								<SelectedEnvelope Value="0" />
++ 								<IsContentSelected Value="false" />
++ 								<LaneHeight Value="85" />
++ 								<FadeViewVisible Value="false" />
++ 							</AutomationLane>
++ 						</AutomationLanes>
++ 						<PermanentLanesAreVisible Value="true" />
++ 					</AutomationLanes>
++ 					<EnvelopeChooser>
++ 						<SelectedDevice Value="0" />
++ 						<SelectedEnvelope Value="0" />
++ 					</EnvelopeChooser>
++ 					<AudioInputRouting>
++ 						<Target Value="AudioIn/External/S0" />
++ 						<UpperDisplayString Value="Ext. In" />
++ 						<LowerDisplayString Value="1/2" />
++ 					</AudioInputRouting>
++ 					<MidiInputRouting>
++ 						<Target Value="MidiIn/External.All/-1" />
++ 						<UpperDisplayString Value="Ext: All Ins" />
++ 						<LowerDisplayString Value="" />
++ 					</MidiInputRouting>
++ 					<AudioOutputRouting>
++ 						<Target Value="AudioOut/Master" />
++ 						<UpperDisplayString Value="Master" />
++ 						<LowerDisplayString Value="" />
++ 					</AudioOutputRouting>
++ 					<MidiOutputRouting>
++ 						<Target Value="MidiOut/None" />
++ 						<UpperDisplayString Value="None" />
++ 						<LowerDisplayString Value="" />
++ 					</MidiOutputRouting>
++ 					<Mixer>
++ 						<LomId Value="0" />
++ 						<LomIdView Value="0" />
++ 						<IsExpanded Value="true" />
++ 						<On>
++ 							<LomId Value="0" />
++ 							<ArrangerAutomation>
++ 								<Events>
++ 									<BoolEvent Time="-63072000" Value="true" />
++ 								</Events>
++ 							</ArrangerAutomation>
++ 							<Manual Value="true" />
++ 							<AutomationTarget Id="17121">
++ 								<LockEnvelope Value="0" />
++ 							</AutomationTarget>
++ 							<MidiCCOnOffThresholds>
++ 								<Min Value="64" />
++ 								<Max Value="127" />
++ 							</MidiCCOnOffThresholds>
++ 						</On>
++ 						<ParametersListWrapper LomId="0" />
++ 						<LastSelectedTimeableIndex Value="0" />
++ 						<LastSelectedClipEnvelopeIndex Value="0" />
++ 						<LastPresetRef>
++ 							<Value />
++ 						</LastPresetRef>
++ 						<LockedScripts />
++ 						<IsFolded Value="false" />
++ 						<ShouldShowPresetName Value="false" />
++ 						<UserName Value="" />
++ 						<Annotation Value="" />
++ 						<SourceContext>
++ 							<Value />
++ 						</SourceContext>
++ 						<Sends>
++ 							<TrackSendHolder>
++ 								<Send>
++ 									<LomId Value="0" />
++ 									<ArrangerAutomation>
++ 										<Events>
++ 											<FloatEvent Time="-63072000" Value="0.0003162277571" />
++ 										</Events>
++ 									</ArrangerAutomation>
++ 									<Manual Value="0.0003162277571" />
++ 									<MidiControllerRange>
++ 										<Min Value="0.0003162277571" />
++ 										<Max Value="1" />
++ 									</MidiControllerRange>
++ 									<AutomationTarget Id="17122">
++ 										<LockEnvelope Value="0" />
++ 									</AutomationTarget>
++ 									<ModulationTarget Id="17123">
++ 										<LockEnvelope Value="0" />
++ 									</ModulationTarget>
++ 									<ModulationAutomation>
++ 										<Events />
++ 									</ModulationAutomation>
++ 								</Send>
++ 								<Active Value="true" />
++ 							</TrackSendHolder>
++ 							<TrackSendHolder>
++ 								<Send>
++ 									<LomId Value="0" />
++ 									<ArrangerAutomation>
++ 										<Events>
++ 											<FloatEvent Time="-63072000" Value="0.0003162277571" />
++ 										</Events>
++ 									</ArrangerAutomation>
++ 									<Manual Value="0.0003162277571" />
++ 									<MidiControllerRange>
++ 										<Min Value="0.0003162277571" />
++ 										<Max Value="1" />
++ 									</MidiControllerRange>
++ 									<AutomationTarget Id="17124">
++ 										<LockEnvelope Value="0" />
++ 									</AutomationTarget>
++ 									<ModulationTarget Id="17125">
++ 										<LockEnvelope Value="0" />
++ 									</ModulationTarget>
++ 									<ModulationAutomation>
++ 										<Events />
++ 									</ModulationAutomation>
++ 								</Send>
++ 								<Active Value="true" />
++ 							</TrackSendHolder>
++ 						</Sends>
++ 						<Speaker>
++ 							<LomId Value="0" />
++ 							<ArrangerAutomation>
++ 								<Events>
++ 									<BoolEvent Time="-63072000" Value="true" />
++ 								</Events>
++ 							</ArrangerAutomation>
++ 							<Manual Value="true" />
++ 							<AutomationTarget Id="17126">
++ 								<LockEnvelope Value="0" />
++ 							</AutomationTarget>
++ 							<MidiCCOnOffThresholds>
++ 								<Min Value="64" />
++ 								<Max Value="127" />
++ 							</MidiCCOnOffThresholds>
++ 						</Speaker>
++ 						<SoloSink Value="false" />
++ 						<Pan>
++ 							<LomId Value="0" />
++ 							<ArrangerAutomation>
++ 								<Events>
++ 									<FloatEvent Time="-63072000" Value="0" />
++ 								</Events>
++ 							</ArrangerAutomation>
++ 							<Manual Value="0" />
++ 							<MidiControllerRange>
++ 								<Min Value="-1" />
++ 								<Max Value="1" />
++ 							</MidiControllerRange>
++ 							<AutomationTarget Id="17127">
++ 								<LockEnvelope Value="0" />
++ 							</AutomationTarget>
++ 							<ModulationTarget Id="17128">
++ 								<LockEnvelope Value="0" />
++ 							</ModulationTarget>
++ 							<ModulationAutomation>
++ 								<Events />
++ 							</ModulationAutomation>
++ 						</Pan>
++ 						<Volume>
++ 							<LomId Value="0" />
++ 							<ArrangerAutomation>
++ 								<Events>
++ 									<FloatEvent Time="-63072000" Value="1" />
++ 								</Events>
++ 							</ArrangerAutomation>
++ 							<Manual Value="1" />
++ 							<MidiControllerRange>
++ 								<Min Value="0.0003162277571" />
++ 								<Max Value="1.99526238" />
++ 							</MidiControllerRange>
++ 							<AutomationTarget Id="17129">
++ 								<LockEnvelope Value="0" />
++ 							</AutomationTarget>
++ 							<ModulationTarget Id="17130">
++ 								<LockEnvelope Value="0" />
++ 							</ModulationTarget>
++ 							<ModulationAutomation>
++ 								<Events />
++ 							</ModulationAutomation>
++ 						</Volume>
++ 						<ViewStateSesstionTrackWidth Value="74" />
++ 						<CrossFadeState>
++ 							<LomId Value="0" />
++ 							<ArrangerAutomation>
++ 								<Events>
++ 									<EnumEvent Time="-63072000" Value="1" />
++ 								</Events>
++ 							</ArrangerAutomation>
++ 							<Manual Value="1" />
++ 							<AutomationTarget Id="17131">
++ 								<LockEnvelope Value="0" />
++ 							</AutomationTarget>
++ 						</CrossFadeState>
++ 						<SendsListWrapper LomId="0" />
++ 					</Mixer>
++ 					<MainSequencer>
++ 						<LomId Value="0" />
++ 						<LomIdView Value="0" />
++ 						<IsExpanded Value="true" />
++ 						<On>
++ 							<LomId Value="0" />
++ 							<ArrangerAutomation>
++ 								<Events>
++ 									<BoolEvent Time="-63072000" Value="true" />
++ 								</Events>
++ 							</ArrangerAutomation>
++ 							<Manual Value="true" />
++ 							<AutomationTarget Id="17132">
++ 								<LockEnvelope Value="0" />
++ 							</AutomationTarget>
++ 							<MidiCCOnOffThresholds>
++ 								<Min Value="64" />
++ 								<Max Value="127" />
++ 							</MidiCCOnOffThresholds>
++ 						</On>
++ 						<ParametersListWrapper LomId="0" />
++ 						<LastSelectedTimeableIndex Value="0" />
++ 						<LastSelectedClipEnvelopeIndex Value="0" />
++ 						<LastPresetRef>
++ 							<Value />
++ 						</LastPresetRef>
++ 						<LockedScripts />
++ 						<IsFolded Value="false" />
++ 						<ShouldShowPresetName Value="false" />
++ 						<UserName Value="" />
++ 						<Annotation Value="" />
++ 						<SourceContext>
++ 							<Value />
++ 						</SourceContext>
++ 						<ClipSlotList>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 						</ClipSlotList>
++ 						<MonitoringEnum Value="1" />
++ 						<ClipTimeable>
++ 							<LomId Value="0" />
++ 							<ArrangerAutomation>
++ 								<Events />
++ 							</ArrangerAutomation>
++ 						</ClipTimeable>
++ 						<Recorder>
++ 							<IsArmed Value="true" />
++ 							<TakeCounter Value="0" />
++ 						</Recorder>
++ 						<MidiControllers>
++ 							<ControllerTargets.0 Id="17133">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.0>
++ 							<ControllerTargets.1 Id="17134">
++ 								<LockEnvelope Value="1" />
++ 							</ControllerTargets.1>
++ 							<ControllerTargets.2 Id="17135">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.2>
++ 							<ControllerTargets.3 Id="17136">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.3>
++ 							<ControllerTargets.4 Id="17137">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.4>
++ 							<ControllerTargets.5 Id="17138">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.5>
++ 							<ControllerTargets.6 Id="17139">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.6>
++ 							<ControllerTargets.7 Id="17140">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.7>
++ 							<ControllerTargets.8 Id="17141">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.8>
++ 							<ControllerTargets.9 Id="17142">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.9>
++ 							<ControllerTargets.10 Id="17143">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.10>
++ 							<ControllerTargets.11 Id="17144">
++ 								<LockEnvelope Value="1" />
++ 							</ControllerTargets.11>
++ 							<ControllerTargets.12 Id="17145">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.12>
++ 							<ControllerTargets.13 Id="17146">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.13>
++ 							<ControllerTargets.14 Id="17147">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.14>
++ 							<ControllerTargets.15 Id="17148">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.15>
++ 							<ControllerTargets.16 Id="17149">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.16>
++ 							<ControllerTargets.17 Id="17150">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.17>
++ 							<ControllerTargets.18 Id="17151">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.18>
++ 							<ControllerTargets.19 Id="17152">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.19>
++ 							<ControllerTargets.20 Id="17153">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.20>
++ 							<ControllerTargets.21 Id="17154">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.21>
++ 							<ControllerTargets.22 Id="17155">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.22>
++ 							<ControllerTargets.23 Id="17156">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.23>
++ 							<ControllerTargets.24 Id="17157">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.24>
++ 							<ControllerTargets.25 Id="17158">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.25>
++ 							<ControllerTargets.26 Id="17159">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.26>
++ 							<ControllerTargets.27 Id="17160">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.27>
++ 							<ControllerTargets.28 Id="17161">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.28>
++ 							<ControllerTargets.29 Id="17162">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.29>
++ 							<ControllerTargets.30 Id="17163">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.30>
++ 							<ControllerTargets.31 Id="17164">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.31>
++ 							<ControllerTargets.32 Id="17165">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.32>
++ 							<ControllerTargets.33 Id="17166">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.33>
++ 							<ControllerTargets.34 Id="17167">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.34>
++ 							<ControllerTargets.35 Id="17168">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.35>
++ 							<ControllerTargets.36 Id="17169">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.36>
++ 							<ControllerTargets.37 Id="17170">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.37>
++ 							<ControllerTargets.38 Id="17171">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.38>
++ 							<ControllerTargets.39 Id="17172">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.39>
++ 							<ControllerTargets.40 Id="17173">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.40>
++ 							<ControllerTargets.41 Id="17174">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.41>
++ 							<ControllerTargets.42 Id="17175">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.42>
++ 							<ControllerTargets.43 Id="17176">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.43>
++ 							<ControllerTargets.44 Id="17177">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.44>
++ 							<ControllerTargets.45 Id="17178">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.45>
++ 							<ControllerTargets.46 Id="17179">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.46>
++ 							<ControllerTargets.47 Id="17180">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.47>
++ 							<ControllerTargets.48 Id="17181">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.48>
++ 							<ControllerTargets.49 Id="17182">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.49>
++ 							<ControllerTargets.50 Id="17183">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.50>
++ 							<ControllerTargets.51 Id="17184">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.51>
++ 							<ControllerTargets.52 Id="17185">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.52>
++ 							<ControllerTargets.53 Id="17186">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.53>
++ 							<ControllerTargets.54 Id="17187">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.54>
++ 							<ControllerTargets.55 Id="17188">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.55>
++ 							<ControllerTargets.56 Id="17189">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.56>
++ 							<ControllerTargets.57 Id="17190">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.57>
++ 							<ControllerTargets.58 Id="17191">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.58>
++ 							<ControllerTargets.59 Id="17192">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.59>
++ 							<ControllerTargets.60 Id="17193">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.60>
++ 							<ControllerTargets.61 Id="17194">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.61>
++ 							<ControllerTargets.62 Id="17195">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.62>
++ 							<ControllerTargets.63 Id="17196">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.63>
++ 							<ControllerTargets.64 Id="17197">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.64>
++ 							<ControllerTargets.65 Id="17198">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.65>
++ 							<ControllerTargets.66 Id="17199">
++ 								<LockEnvelope Value="1" />
++ 							</ControllerTargets.66>
++ 							<ControllerTargets.67 Id="17200">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.67>
++ 							<ControllerTargets.68 Id="17201">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.68>
++ 							<ControllerTargets.69 Id="17202">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.69>
++ 							<ControllerTargets.70 Id="17203">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.70>
++ 							<ControllerTargets.71 Id="17204">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.71>
++ 							<ControllerTargets.72 Id="17205">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.72>
++ 							<ControllerTargets.73 Id="17206">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.73>
++ 							<ControllerTargets.74 Id="17207">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.74>
++ 							<ControllerTargets.75 Id="17208">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.75>
++ 							<ControllerTargets.76 Id="17209">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.76>
++ 							<ControllerTargets.77 Id="17210">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.77>
++ 							<ControllerTargets.78 Id="17211">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.78>
++ 							<ControllerTargets.79 Id="17212">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.79>
++ 							<ControllerTargets.80 Id="17213">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.80>
++ 							<ControllerTargets.81 Id="17214">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.81>
++ 							<ControllerTargets.82 Id="17215">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.82>
++ 							<ControllerTargets.83 Id="17216">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.83>
++ 							<ControllerTargets.84 Id="17217">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.84>
++ 							<ControllerTargets.85 Id="17218">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.85>
++ 							<ControllerTargets.86 Id="17219">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.86>
++ 							<ControllerTargets.87 Id="17220">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.87>
++ 							<ControllerTargets.88 Id="17221">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.88>
++ 							<ControllerTargets.89 Id="17222">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.89>
++ 							<ControllerTargets.90 Id="17223">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.90>
++ 							<ControllerTargets.91 Id="17224">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.91>
++ 							<ControllerTargets.92 Id="17225">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.92>
++ 							<ControllerTargets.93 Id="17226">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.93>
++ 							<ControllerTargets.94 Id="17227">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.94>
++ 							<ControllerTargets.95 Id="17228">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.95>
++ 							<ControllerTargets.96 Id="17229">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.96>
++ 							<ControllerTargets.97 Id="17230">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.97>
++ 							<ControllerTargets.98 Id="17231">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.98>
++ 							<ControllerTargets.99 Id="17232">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.99>
++ 							<ControllerTargets.100 Id="17233">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.100>
++ 							<ControllerTargets.101 Id="17234">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.101>
++ 							<ControllerTargets.102 Id="17235">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.102>
++ 							<ControllerTargets.103 Id="17236">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.103>
++ 							<ControllerTargets.104 Id="17237">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.104>
++ 							<ControllerTargets.105 Id="17238">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.105>
++ 							<ControllerTargets.106 Id="17239">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.106>
++ 							<ControllerTargets.107 Id="17240">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.107>
++ 							<ControllerTargets.108 Id="17241">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.108>
++ 							<ControllerTargets.109 Id="17242">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.109>
++ 							<ControllerTargets.110 Id="17243">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.110>
++ 							<ControllerTargets.111 Id="17244">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.111>
++ 							<ControllerTargets.112 Id="17245">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.112>
++ 							<ControllerTargets.113 Id="17246">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.113>
++ 							<ControllerTargets.114 Id="17247">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.114>
++ 							<ControllerTargets.115 Id="17248">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.115>
++ 							<ControllerTargets.116 Id="17249">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.116>
++ 							<ControllerTargets.117 Id="17250">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.117>
++ 							<ControllerTargets.118 Id="17251">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.118>
++ 							<ControllerTargets.119 Id="17252">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.119>
++ 							<ControllerTargets.120 Id="17253">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.120>
++ 							<ControllerTargets.121 Id="17254">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.121>
++ 							<ControllerTargets.122 Id="17255">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.122>
++ 							<ControllerTargets.123 Id="17256">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.123>
++ 							<ControllerTargets.124 Id="17257">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.124>
++ 							<ControllerTargets.125 Id="17258">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.125>
++ 							<ControllerTargets.126 Id="17259">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.126>
++ 							<ControllerTargets.127 Id="17260">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.127>
++ 							<ControllerTargets.128 Id="17261">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.128>
++ 							<ControllerTargets.129 Id="17262">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.129>
++ 							<ControllerTargets.130 Id="17263">
++ 								<LockEnvelope Value="0" />
++ 							</ControllerTargets.130>
++ 						</MidiControllers>
++ 					</MainSequencer>
++ 					<FreezeSequencer>
++ 						<LomId Value="0" />
++ 						<LomIdView Value="0" />
++ 						<IsExpanded Value="true" />
++ 						<On>
++ 							<LomId Value="0" />
++ 							<ArrangerAutomation>
++ 								<Events>
++ 									<BoolEvent Time="-63072000" Value="true" />
++ 								</Events>
++ 							</ArrangerAutomation>
++ 							<Manual Value="true" />
++ 							<AutomationTarget Id="17264">
++ 								<LockEnvelope Value="0" />
++ 							</AutomationTarget>
++ 							<MidiCCOnOffThresholds>
++ 								<Min Value="64" />
++ 								<Max Value="127" />
++ 							</MidiCCOnOffThresholds>
++ 						</On>
++ 						<ParametersListWrapper LomId="0" />
++ 						<LastSelectedTimeableIndex Value="0" />
++ 						<LastSelectedClipEnvelopeIndex Value="0" />
++ 						<LastPresetRef>
++ 							<Value />
++ 						</LastPresetRef>
++ 						<LockedScripts />
++ 						<IsFolded Value="false" />
++ 						<ShouldShowPresetName Value="false" />
++ 						<UserName Value="" />
++ 						<Annotation Value="" />
++ 						<SourceContext>
++ 							<Value />
++ 						</SourceContext>
++ 						<ClipSlotList>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 							<ClipSlot>
++ 								<LomId Value="0" />
++ 								<ClipSlot>
++ 									<Value />
++ 								</ClipSlot>
++ 								<HasStop Value="true" />
++ 								<NeedRefreeze Value="true" />
++ 							</ClipSlot>
++ 						</ClipSlotList>
++ 						<MonitoringEnum Value="1" />
++ 						<Sample>
++ 							<LomId Value="0" />
++ 							<ArrangerAutomation>
++ 								<Events />
++ 							</ArrangerAutomation>
++ 						</Sample>
++ 						<VolumeModulationTarget Id="17265">
++ 							<LockEnvelope Value="0" />
++ 						</VolumeModulationTarget>
++ 						<TranspositionModulationTarget Id="17266">
++ 							<LockEnvelope Value="0" />
++ 						</TranspositionModulationTarget>
++ 						<GrainSizeModulationTarget Id="17267">
++ 							<LockEnvelope Value="0" />
++ 						</GrainSizeModulationTarget>
++ 						<FluxModulationTarget Id="17268">
++ 							<LockEnvelope Value="0" />
++ 						</FluxModulationTarget>
++ 						<SampleOffsetModulationTarget Id="17269">
++ 							<LockEnvelope Value="0" />
++ 						</SampleOffsetModulationTarget>
++ 						<PitchViewScrollPosition Value="-1073741824" />
++ 						<SampleOffsetModulationScrollPosition Value="-1073741824" />
++ 						<Recorder>
++ 							<IsArmed Value="false" />
++ 							<TakeCounter Value="1" />
++ 						</Recorder>
++ 					</FreezeSequencer>
++ 					<DeviceChain>
++ 						<Devices>
++ 							<PluginDevice Id="0">
++ 								<LomId Value="0" />
++ 								<LomIdView Value="0" />
++ 								<IsExpanded Value="false" />
++ 								<On>
++ 									<LomId Value="0" />
++ 									<ArrangerAutomation>
++ 										<Events>
++ 											<BoolEvent Time="-63072000" Value="true" />
++ 										</Events>
++ 									</ArrangerAutomation>
++ 									<Manual Value="true" />
++ 									<AutomationTarget Id="17270">
++ 										<LockEnvelope Value="0" />
++ 									</AutomationTarget>
++ 									<MidiCCOnOffThresholds>
++ 										<Min Value="64" />
++ 										<Max Value="127" />
++ 									</MidiCCOnOffThresholds>
++ 								</On>
++ 								<ParametersListWrapper LomId="0" />
++ 								<LastSelectedTimeableIndex Value="0" />
++ 								<LastSelectedClipEnvelopeIndex Value="0" />
++ 								<LastPresetRef>
++ 									<Value />
++ 								</LastPresetRef>
++ 								<LockedScripts />
++ 								<IsFolded Value="false" />
++ 								<ShouldShowPresetName Value="false" />
++ 								<UserName Value="" />
++ 								<Annotation Value="" />
++ 								<SourceContext>
++ 									<Value>
++ 										<BranchSourceContext>
++ 											<OriginalFileRef />
++ 											<BrowserContentPath Value="query:Plugins#VST:Local:Serum" />
++ 											<PresetRef />
++ 											<BranchDeviceId Value="device:vst:instr:1483109208?n=Serum" />
++ 										</BranchSourceContext>
++ 									</Value>
++ 								</SourceContext>
++ 								<PluginDesc>
++ 									<VstPluginInfo>
++ 										<Dir>
++ 											<Type Value="3" />
++ 											<Data>
++ 												00000000014A000200010C4D6163696E746F7368204844000000000000000000000000000000D14F
++ 												724F482B0000015865FE035653540000000000000000000000000000000000000000000000000000
++ 												0000000000000000000000000000000000000000000000000000000000000000000001041B64D3C2
++ 												F6710000000000000000FFFFFFFF0000092000000000000000000000000000000008506C75672D49
++ 												6E73001000080000D14F562F0000001100080000D3C2DA5100000001000C015865FE015865E70158
++ 												36540002002A4D6163696E746F73682048443A4C6962726172793A00417564696F3A00506C75672D
++ 												496E733A00565354000E00080003005600530054000F001A000C004D006100630069006E0074006F
++ 												007300680020004800440012001A4C6962726172792F417564696F2F506C75672D496E732F565354
++ 												001300012F00FFFF0000
++ 											</Data>
++ 										</Dir>
++ 										<FileName Value="Serum.vst" />
++ 										<PlugName Value="Serum" />
++ 										<UniqueId Value="1483109208" />
++ 										<Inputs Value="0" />
++ 										<Outputs Value="0" />
++ 										<NumberOfParameters Value="227" />
++ 										<NumberOfPrograms Value="1" />
++ 										<Flags Value="67117317" />
++ 										<Preset>
++ 											<VstPreset>
++ 												<OverwriteProtectionNumber Value="2305" />
++ 												<ParameterSettings />
++ 												<IsOn Value="true" />
++ 												<PowerMacroControlIndex Value="-1" />
++ 												<PowerMacroMappingRange>
++ 													<Min Value="64" />
++ 													<Max Value="127" />
++ 												</PowerMacroMappingRange>
++ 												<IsFolded Value="false" />
++ 												<StoredAllParameters Value="true" />
++ 												<DeviceLomId Value="0" />
++ 												<DeviceViewLomId Value="0" />
++ 												<IsOnLomId Value="0" />
++ 												<ParametersListWrapperLomId Value="0" />
++ 												<Type Value="1178747752" />
++ 												<ProgramCount Value="1" />
++ 												<ParameterCount Value="227" />
++ 												<ProgramNumber Value="0" />
++ 												<Buffer>
++ 													7801ED5C7D6C14C7157F6702FE48B0C15548A00D39A842829B00F62567EC72F3B031D8260683690C
++ 													A1699AC39CE188B973ECB30D544587ACB4E4AB10A1B621A8F9104A4B204D1BA12634519A50AB0A6D
++ 													4084A02A3451859155E5B3820851D244D5F6BDD99DDDD9AB6DB5FFB8CADDCC697676DEFCDE9B376F
++ 													DFBEDD99DD3D004090298D30B929DE164BB471F54118B2A969B068A789B2876B823874438A011E2E
++ 													60953041C741072C862D92E8E1F2AC7CEAC6873B0270524898266F9CB5DB2679FD422554C1BC0C79
++ 													5758F36C9A862B275C380337DE72681AEE56B88D7E9C3CFD26584CA5A4E1424409314DC3E55BF3E1
++ 													56267938B25D2CC0241D576041DFD798E4E1B8B682373AAED02295CB89E4E1427218157E5C9105F3
++ 													E9A7E3AA48B910198792378E2B2DA230AF2E6F9E1AB087BBCA229ABFDF0A49A9F2CB9B6801046A7C
++ 													F2E0CC650026E9FD165B95529CD62FD9A95CAAACE34AC87EF2180D5AD659D6D194C60EC60FCC7960
++ 													E2808903260E9838A0E280BCBFB03783EC17942E983247EC4077D43CAD982887EB6E8C1FD8A6C8A1
++ 													F3802715E5723EE37A0185481307A43572CA0FC2346DB427E3AE27183FC8B57810A6A51167FD8586
++ 													AEFC5F3984AA9B32DBFDA28AFCA09296ABFCE3347EE0B7474E9C07BC022AD72C4D3CC889E34D2E3E
++ 													CC382BE8B210B6D7C2BD76130F722D1EAC7917E0F07500799468EC3C4F70738092F208BD74A6172E
++ 													8E79AC8CC44F3BF4ACF3FF97FB6A5DC394669D937DCDF881F103E307E63C3071C0C4018E035A1AE6
++ 													FE56B61ABA6DA42CB403BF1CE5BC83E53942168ED3F831596094E33A9FE6B0EE3C5679C2287863CF
++ 													D1EDF965B54F98D633ECF7F3941364E738BFACC7678CF4E6A5CD90FDBEA476FC65E75ADDC407DB22
++ 													D96B874A0A07CEABBEDA71377E90EDC7FD3FC61787046C80557EBAF103BF3DB2370EA8712653B1E8
++ 													BA8E58ADAA2B0FF0D7B3DF0E66BCC5ADDDA9BA383FDB483426DA930564913BE82B9D1874C1B728C7
++ 													E80736A66B555B54628A86C184F9A3960C1C14D5F4AC8F271B13CD3DA909C4534C798594D90E7524
++ 													B797BE076AA3D2FD2EE8EAA678776AC18AAE587B2814A2358D85BCAE919989C434D9E6EC73917670
++ 													92FE3FF2A4F92B229D870552B2653D5F7F2E62D71993C67FDC7417E1D38C77D3C373AA1750054F1C
++ 													3FAEB05495181C8E7F381AF36764AA4A1A9770665F5A70EEFB9D253EDF5E869C47DA67BE814B0704
++ 													E75DBFBF24759A7DD72E679C69E23D28653CBE772A7266BC93A9E0C4BA4BBBD8555F3BB771E276B9
++ 													EFF0EA7490B413C79B9C36597778DC7D652FD261AFD4CDC62B3941E2E50C4076757497BC445B2879
++ 													1C3E8650527C126393EC2DF7C3BA8A1B1A4BA53C22AB52C78DB2CFB2D378E86011E58F58173DC936
++ 													BF2DA47CBD0F07C3749635D6A5EC53D779A47D5DE79130A3D15DFEF3AF5E669BCBFAA1836511CE8A
++ 													31E3F168CE5469FC640FB689EFDC5266818DC1863A1B2349AE2DEB20403682AB6A3A3B3B3C192EC6
++ 													C5297BCB16B9F1F563C9AF32ED46A9070BD5CE51C5C6F27499AEBFA7E2C904CCE5503E8DB112D741
++ 													61DC897B1A5F1A974154C9A3D2D3A39486019D106F8BA6E22C439EC3520F3E4783F4983C487238DB
++ 													F21DFD5816D3DC1400E84E756CE57B5917ABAE0B2C538B0D19EF81DB22F8013F1442CFB268821575
++ 													E3A51D27D3A8E2267DBF181867B3E85BA94B2AD94D87CC253B7A9C6AB62981D56E8BA3A38AB72AFE
++ 													6AED6A9764A4A56C87C0FE3052F270B667B0499304967A9C6A6EA5234589AFE9368D8AB498F436C8
++ 													A133D189AB7005ED3BCCD5B03C9A22DB4A108F9BDBC653E64B783E65165748D92463016381DCB640
++ 													73D7866822DED63DB766517063CFE6F2397DD1DEDCB6486E8D7EA41B376985BCC002C8DBB100FA8F
++ 													521988ECAE9D1199D45F13D93D108D14E4ED8834CC7C34B2B3F6E9C8B1752F440AFA8F461AF69F8A
++ 													EC1C3817796BE8536A0F889B4A0B45C3CCC96263C554B1B3768638D0325B1C5B572E3EE8AA1205FD
++ 													35E2E63D8DA269FF4AD171F84EF1F040543C773A2E8E0FDD273EB9B8554CC8DB21A614DD2F66953E
++ 													20C2D31E114B663E2AD694FD9864ED155BAA7F46F29E168F2D7D86643E2B8EACFD25C97D419CD9F4
++ 													1B92FD5BF1D9B65749FE5131EDA13F88B23D7F14D5FB4E88A5FB4F89B587FE2C361DFE8BD8F6CA5F
++ 													C58303E7C4E36FFE4D1C3CFDA178F9BDBF8B3F0D7D2ADEFDF892F8E8E23FC5E75FFC8BFA0F60F184
++ 													7138A5683C4E2FCEC759A5853867CA95189E3611C5F4125C3273322E9FF5156C2DBB1AEF9E730DB6
++ 													574CC544F8ABD85B7D1D6E17D7E30F6A67E08F967C1D7FB2F4067C62F98DF8F396D9F87CEB37F0C5
++ 													B5B7E06B77CFC537D695E3C9F610BEB3E9363C9BA8C4F7BBAAF07CEF37F1F2B6085ADB11F3FB6BB0
++ 													E4878BF09A8716E3F5BBEAF1C63D8D38F7A7B763E5BE65B8F0C9666CD8BF1257FC6215AE397407DE
++ 													F3ABD5B8F1F09DD8F9D2B771CB2BDFC1F46BDFC59D0351DCFD461B3EF6660C9F3AB9010F9C8EE3AF
++ 													DFB9178FBCB7195F3F9BC46343F7E15BEF77E3998F7B70F07C1F7E70712B5EB8FC3DFCEC8BEFCB6C
++ 													8E7FCE1F7FF35E92FFBD24EDC2A0D655079DFBF7B1288B5B629B93F2BF773C45C65E8F5E5AEE6BA5
++ 													F9A29D54FF4AA3B1B003F73588A9122A56F1DA26A7FF9F1E09580FABC91E81C07A48421F34D2D26B
++ 													334D8E63F49866D2B5B676F636784BB031114F51A153F5FD4F561E71D757825ED221F07AC9F40A9E
++ 													DB65A620D857F24CBAC25E70F8549989BB76D2F072D5FD41265EC96DC8E0AB6D68A9AF5B5C5FBFAC
++ 													66514B73B01C3A33DA951CBB5DFEC59122C952C9B5DB43F0D4A8FCF27F987CFC23E9EB03998AB180
++ 													B180B180B140D65AE0DFFB1AFEC4780103000000000106080000
++ 												</Buffer>
++ 												<Name Value="" />
++ 												<PluginVersion Value="1" />
++ 												<UniqueId Value="1483109208" />
++ 												<ByteOrder Value="2" />
++ 												<PresetRef />
++ 											</VstPreset>
++ 										</Preset>
++ 										<Version Value="1" />
++ 										<VstVersion Value="2400" />
++ 										<WinPosX Value="54" />
++ 										<WinPosY Value="84" />
++ 										<IsShellClient Value="false" />
++ 										<Category Value="2" />
++ 										<PresetDirectory>
++ 											<Type Value="0" />
++ 											<Data />
++ 										</PresetDirectory>
++ 									</VstPluginInfo>
++ 								</PluginDesc>
++ 								<ParameterList>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17271">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17272">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17273">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17274">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17275">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17276">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17277">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17278">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17279">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17280">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17281">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17282">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17283">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17284">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17285">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17286">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17287">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17288">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17289">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17290">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17291">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17292">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17293">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17294">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17295">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17296">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17297">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17298">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17299">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17300">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17301">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17302">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17303">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17304">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17305">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17306">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17307">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17308">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17309">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17310">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17311">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17312">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17313">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17314">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17315">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17316">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17317">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17318">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17319">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17320">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17321">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17322">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17323">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17324">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17325">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17326">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17327">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17328">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17329">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17330">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17331">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17332">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17333">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17334">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17335">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17336">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17337">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17338">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17339">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17340">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17341">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17342">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17343">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17344">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17345">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17346">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17347">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17348">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17349">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17350">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17351">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17352">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17353">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17354">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17355">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17356">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17357">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17358">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17359">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17360">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17361">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17362">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17363">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17364">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17365">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17366">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17367">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17368">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17369">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17370">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17371">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17372">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17373">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17374">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17375">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17376">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17377">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17378">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17379">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17380">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17381">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17382">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17383">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17384">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17385">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17386">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17387">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17388">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17389">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17390">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17391">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17392">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17393">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17394">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17395">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17396">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17397">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17398">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17399">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17400">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17401">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17402">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17403">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17404">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17405">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17406">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17407">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17408">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17409">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17410">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17411">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17412">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17413">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17414">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17415">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17416">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17417">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17418">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17419">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17420">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17421">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17422">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17423">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17424">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17425">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17426">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17427">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17428">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17429">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17430">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17431">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17432">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17433">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17434">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17435">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17436">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17437">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17438">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17439">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17440">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17441">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17442">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17443">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17444">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17445">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17446">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17447">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17448">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17449">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17450">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17451">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17452">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17453">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17454">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17455">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17456">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17457">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17458">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17459">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17460">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17461">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17462">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17463">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17464">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17465">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17466">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17467">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17468">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17469">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17470">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17471">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17472">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17473">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17474">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17475">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17476">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17477">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17478">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17479">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17480">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17481">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17482">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17483">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17484">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17485">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17486">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17487">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17488">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17489">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17490">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17491">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17492">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17493">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17494">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17495">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17496">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17497">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17498">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17499">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17500">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17501">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17502">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17503">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17504">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17505">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17506">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17507">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17508">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17509">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17510">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17511">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17512">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17513">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17514">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17515">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17516">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17517">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17518">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17519">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17520">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17521">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17522">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17523">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17524">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 									<PluginFloatParameter>
++ 										<ParameterName Value="" />
++ 										<ParameterId Value="-1" />
++ 										<VisualIndex Value="1073741823" />
++ 										<ParameterValue>
++ 											<LomId Value="0" />
++ 											<ArrangerAutomation>
++ 												<Events>
++ 													<FloatEvent Time="-63072000" Value="0.1234567687" />
++ 												</Events>
++ 											</ArrangerAutomation>
++ 											<Manual Value="0.1234567687" />
++ 											<MidiControllerRange>
++ 												<Min Value="0" />
++ 												<Max Value="1" />
++ 											</MidiControllerRange>
++ 											<AutomationTarget Id="17525">
++ 												<LockEnvelope Value="0" />
++ 											</AutomationTarget>
++ 											<ModulationTarget Id="17526">
++ 												<LockEnvelope Value="0" />
++ 											</ModulationTarget>
++ 											<ModulationAutomation>
++ 												<Events />
++ 											</ModulationAutomation>
++ 										</ParameterValue>
++ 									</PluginFloatParameter>
++ 								</ParameterList>
++ 								<AxisX Value="0" />
++ 								<AxisY Value="0" />
++ 							</PluginDevice>
++ 						</Devices>
++ 					</DeviceChain>
++ 				</DeviceChain>
++ 				<ReWireSlaveMidiTargetId Value="1" />
++ 			</MidiTrack>
+  			<ReturnTrack Id="2">
+  				<LomId Value="0" />
+  				<LomIdView Value="0" />
+***************
+*** 7300,7313 ****
+  		<SoloInPlace Value="true" />
+  		<CrossfadeCurve Value="2" />
+  		<LatencyCompensation Value="2" />
+! 		<HighlightedTrackIndex Value="1" />
+  		<GroovePool>
+  			<Grooves />
+  		</GroovePool>
+  		<ArrangementOverdub Value="false" />
+  		<ColorSequenceIndex Value="1" />
+  		<AutoColorPickerForPlayerAndGroupTracks>
+! 			<NextColorIndex Value="5" />
+  		</AutoColorPickerForPlayerAndGroupTracks>
+  		<AutoColorPickerForReturnAndMasterTracks>
+  			<NextColorIndex Value="13" />
+--- 11788,11801 ----
+  		<SoloInPlace Value="true" />
+  		<CrossfadeCurve Value="2" />
+  		<LatencyCompensation Value="2" />
+! 		<HighlightedTrackIndex Value="2" />
+  		<GroovePool>
+  			<Grooves />
+  		</GroovePool>
+  		<ArrangementOverdub Value="false" />
+  		<ColorSequenceIndex Value="1" />
+  		<AutoColorPickerForPlayerAndGroupTracks>
+! 			<NextColorIndex Value="6" />
+  		</AutoColorPickerForPlayerAndGroupTracks>
+  		<AutoColorPickerForReturnAndMasterTracks>
+  			<NextColorIndex Value="13" />
